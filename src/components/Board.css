@@ -1,0 +1,21 @@
+.lists {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding: 0;
+  list-style-type: none;
+}
+
+.list-wrapper {
+  margin-bottom: 10px;
+  padding: 8px;
+  flex-basis: 20%;
+  min-width: 100px;
+  border-radius: 2px;
+}
+
+.list-boundary{
+background: #E0E0E0;
+padding: 2px;
+}

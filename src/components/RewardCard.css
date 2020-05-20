@@ -1,0 +1,28 @@
+.task-card-wrapper{
+    display:flex;
+    flex-direction:column;
+
+  background: #ffffff;
+  margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 2px;
+    cursor: pointer;
+
+}
+
+.task-card {
+  word-break: break-all;
+  word-wrap: break-word;
+  align-self:center;
+}
+
+.task-card-close{
+   align-self: flex-end;
+   color:darkgrey;
+   font-size: 10px;
+   font-weight:700;
+}
+
+.task-card-wrapper:hover {
+  background-color: #f9f3f3;
+}
